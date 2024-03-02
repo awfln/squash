@@ -1,14 +1,14 @@
-to play, run squash.py (ok to run from file explorer, no need to open in vscode
-OR simply run squash.exe which i compiled using the pyinstaller library
+to play, run squash.py (ok to run from file explorer, no need to open in vscode)
+OR simply run squash.exe which i compiled using pyinstaller
 to exit game, press esc.
 
-This file is NOT REQUIRED TO PLAY. mechanics are easily self-learnable.
+list of game mechanics:
 
 the force of the ball being hit is based on the velocity of the mouse pointer while hitting (you dont need to click).
 your score increases by 1 every time the ball hits the right edge of the screen.
 the ball bounces on the ground in the red zone and you cannot move your mouse pointer into the red zone.
 if the ball touches the ground outside the red zone, it counts as game over.
-the restart button works by hovering over it.
+the restart button and level selection buttons work automatically by hovering over them.
 
 
 

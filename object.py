@@ -15,7 +15,7 @@ class Object:
         self.frames_since_collision = 500
         self.game_over = False
         self.score = 0
-        self.font = pygame.font.SysFont("Times New Roman", round((w*h)/17484.8))
+        self.font = pygame.font.SysFont("Times New Roman", 50)
         self.game_over_text = self.font.render("Game over", True, (255, 255, 255))
         self.restart_text = self.font.render("Restart", True, (0, 0, 0))
         self.exit_text = self.font.render("Exit", True, (0, 0, 0))
@@ -30,11 +30,10 @@ class Object:
                 self.game_over = False
                 self.pos = pygame.math.Vector2(w*0.1,h*0.6)
                 self.vel = pygame.math.Vector2(0.08789*w,0.732*h)
+                self.score = 0
             elif pygame.Rect(0.2*w, 0.7*h, 0.15*w, h*0.1).collidepoint(mouse_pos_pygame) and pygame.mouse.get_pressed()[0]:
                 pygame.quit()
                 sys.exit()
-
-            self.score = 0
             return
 
         self.pos += self.vel * dt
