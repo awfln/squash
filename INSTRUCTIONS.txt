@@ -1,6 +1,8 @@
-to play, run squash.py (ok to run from file explorer, no need to open in vscode)
-OR simply run squash.exe which i compiled using pyinstaller
-to exit game, press esc.
+Libraries to install: pygame
+
+To play, run squash.py (ok to run from file explorer, no need to open in vscode)
+or simply run squash.exe which i compiled using pyinstaller.
+To exit game, press esc.
 
 list of game mechanics:
 
